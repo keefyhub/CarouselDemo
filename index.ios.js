@@ -3,11 +3,11 @@
 var React = require('react-native');
 var {
   AppRegistry,
+  Dimensions,
+  Image,
   StyleSheet,
   Text,
-  View,
-  Dimensions,
-  Image
+  View
 } = React;
 
 var screenWidth = Dimensions.get('window').width;
